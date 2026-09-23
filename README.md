@@ -2,7 +2,7 @@
 
 FLEXFORM Parametric Drawing Engine (FPDE) là plug-in AutoCAD để quản lý Project, cấu hình thông số và tạo bản vẽ từ dữ liệu thủ công hoặc Excel. Repository này dành cho bộ cài và tài liệu, không chứa mã nguồn ứng dụng.
 
-> Chưa đăng bản phát hành hoặc file cài đặt. Nội dung dưới đây mô tả candidate 1.0.0-rc.4 đang nghiệm thu.
+> Đã phát hành công khai bản thử nghiệm [1.0.0-rc.4](https://github.com/dekenwing/FPDE-Releases/releases/tag/v1.0.0-rc.4). Tải Setup.exe và SHA256SUMS.txt trong mục Assets; không cần tài khoản GitHub.
 
 ## Phiên bản hiện tại
 
@@ -38,7 +38,7 @@ Dùng bản sao dữ liệu khi thử nghiệm. Lưu thay đổi của Master tr
 
 Bản này có kiểm tra phiên bản và thông báo **Tải và cài đặt** / **Để sau**. Nút tải/cài chưa được kích hoạt; chưa có chức năng tự tải hoặc chạy bộ cài. Để sau đóng thông báo.
 
-Kiểm tra ở nền một lần mỗi phiên khi mở palette, không gửi Project/bản vẽ và không dùng token GitHub. Repository còn riêng tư thì máy khách không xác thực sẽ không thấy bản mới. Mất mạng hoặc không truy cập được nguồn phát hành không chặn sử dụng FPDE.
+Kiểm tra ở nền một lần mỗi phiên khi mở palette, không gửi Project/bản vẽ và không dùng token GitHub. Repository bộ cài đã công khai; việc kiểm tra thông báo cập nhật end-to-end vẫn chưa được nghiệm thu. Mất mạng hoặc không truy cập được nguồn phát hành không chặn sử dụng FPDE.
 
 Cách cập nhật đang hoạt động là lưu/đóng AutoCAD rồi chạy bộ cài được cung cấp. Bộ cài giữ một runtime trước cùng schema v11, có thể phục hồi bằng:
 
